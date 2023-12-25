@@ -374,8 +374,33 @@ z-index: 2;
   .info p{
     color: #f0eded;
 }
+@media screen and (max-width: 425px) {
+    /* Your styles for small screens go here */
+    .sideimg img {
+      width: 30%;
+      height: 30%;
+      float: right;
+    }
+.nav-link
+{
+    /* display: flex;
+    flex-direction: row; */
+    padding: 0%;
+    margin:0
+} ;
+ .nav-link ul
+{
+    margin-left: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
 
- 
+}
+
+
+  
+    /* Additional styles... */
+  }
 
 
 
